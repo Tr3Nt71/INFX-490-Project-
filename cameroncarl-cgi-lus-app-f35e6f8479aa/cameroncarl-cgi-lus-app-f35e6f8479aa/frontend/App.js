@@ -297,7 +297,7 @@ function HomeScreen() {
 
   const handle_update_database = () => {
     
-    fetch("https://3q1zy832oc.execute-api.us-east-1.amazonaws.com", {
+    fetch("", {
       method: "POST",
       body: coordinates,
     })
@@ -329,7 +329,7 @@ function HomeScreen() {
 
     try {
 
-      const response = await fetch("https://3q1zy832oc.execute-api.us-east-1.amazonaws.com", {
+      const response = await fetch(), {
         method: "GET",
       })
       const data = await response.json()
@@ -551,7 +551,7 @@ function Test({navigation}) {
 
   const handle_update_database = () => {
     
-    fetch("https://3q1zy832oc.execute-api.us-east-1.amazonaws.com", {
+    fetch(), {
       method: "POST",
       body: coordinates,
     })
@@ -579,7 +579,7 @@ function Test({navigation}) {
 
     try {
 
-      const response = await fetch("https://3q1zy832oc.execute-api.us-east-1.amazonaws.com", {
+      const response = await fetch(), {
         method: "GET",
       })
       const data = await response.json()
